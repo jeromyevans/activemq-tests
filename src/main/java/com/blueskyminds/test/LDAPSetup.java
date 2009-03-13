@@ -12,7 +12,7 @@ public class LDAPSetup {
     public static final String ROOT_DN = "ou=adminobjects,o=activemq,dc=blueskyminds,dc=com,dc=au";
 
     public static final String QUEUE_CONNECTION_FACTORY = "cn=factory";
-    public static final String QUEUE_NAME = "cn=LANDMINE.ADVERTISEMENT.IMPORT";
+    public static final String QUEUE_NAME = "cn=queue.test";
 
     public static Properties getEnv() {
         Properties env = new Properties();    
